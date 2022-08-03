@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Perfil</title>
+</head>
+<body>
+    <h1>Formulario de datos personales</h1>
+
+    <form action="">
+        <input type="text" value="ESTUDIANTE" disabled>
+        <br><br>
+
+        <label for="nombreCompleto">Nombre Completo</label>
+        <input type="text" id="nombreCompleto">
+        <br><br>
+
+        <label for="email">Email</label>
+        <input type="email" id="email">
+        <br><br>
+
+        <label for="edad">Edad</label>
+        <input type="text" id="edad">
+        <br><br>
+
+        <label for="nacionalidad">Nacionalidad</label>
+        <input type="text" id="nacionalidad">
+        <br><br>
+
+        <label for="condicionLaboral">Condicion Laboral</label>
+        <select name="condicionLaboral" id="condicionLaboral">
+            <option value="desempleado">Desempeado</option>
+            <option value="enBusqueda">En búsqueda Laboral</option>
+            <option value="partTime">Trabajo part time</option>
+            <option value="fullTime">Trabajo full time</option>
+        </select>
+        <br><br>
+
+        <fieldset>
+            <legend>Gustos Personales</legend>
+
+            <label for="gustosMusicales">Gustos Musicales</label>
+            <input type="text" name="gustosMusicales" id="gustosMusicales">
+            <br><br>
+
+            <label for="comidas">Comidas Favoritas</label>
+            <select name="comidas" id="comidas">
+                <option value="empanadas">Empanadas</option>
+                <option value="pizza">Pizza</option>
+                <option value="arroz">Arroz</option>
+            </select>
+            <br><br>
+
+            <input type="submit" name="Enviar">
+            <br> <br>
+            
+            <label for="recordarDatos">Recordar datos de login</label>
+            <input type="checkbox" name="recordarDatos" id="recordarDatos">
+            <br>
+
+        </fieldset>
+
+    </form>
+</body>
+</html>

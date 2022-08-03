@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina WEB</title>
+    <style>
+        table,
+        td,
+        th{
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 5px;
+        }
+        table {
+            width: 100%;
+            
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <!--tr: cambia de fila
+            th: cabeceras 
+            td: contenido  -->
+            <tr>
+                <th>Nombres</th>
+                <th>Apellido</th>
+                <th>Edades</th>
+                <th>DNI</th>
+            </tr>
+            
+            <tr>
+                <td>Clara</td>
+                <td>Razzetto</td>
+                <td>25</td>
+                <td>39580415</td>
+            </tr>
+
+            <tr>
+                <td>Mirta</td>
+                <td>Perez</td>
+                <td>85</td>
+                <td>20555555</td>
+            </tr>
+
+            <tr>
+                <td>Carla</td>
+                <td>Roman</td>
+                <td>60</td>
+                <td>25555555</td>
+            </tr>
+
+        </td>
+    </table>
+    
+
+    <table>
+        <thead>
+            <!-- Aca van los encabezados-->
+            <tr>
+                <th>Nombres</th>
+                <th>Equipo</th>
+                <th>Goles</th>
+            </tr>
+        </thead>
+
+        <tbody> 
+            <!-- aca va el cuerpo de la tabla -->
+            <tr>
+                <!-- rowspan se usa para unir celdas en vertical, se especifica la cantidad -->
+                <td rowspan="2">Lionel Messi</td>
+                <td>Paris Saint Germain</td>
+                <td>50</td>
+            </tr>
+
+            <tr>
+                <td>Ligue 1 (Francia)</td>
+                <td>20</td>
+            </tr>
+
+            <tr>
+                <td>Gabriel Batistuta </td>
+                <td>Retirado</td>
+                <td>85</td>
+            </tr>
+
+            <tr>
+                <td>Sergio Aguero</td>
+                <td>FC Barcelona</td>
+                <td>42</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <!-- colspan se usa para unir celdas en horizontal, se indica la cantidad -->
+                <td colspan="2"> Cantidad total de goles:</td>
+                <td> 197 </td>
+            </tr>
+            <tr>
+                <td colspan="3"><a href="google.com">Ingresa a la pag web</a></td>
+            </tr>
+        </tfoot>
+    </table>
+
+</body>
+</html>
