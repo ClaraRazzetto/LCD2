@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina con estilo css</title>
+    <link rel="stylesheet" href="css/index1.css">
+</head>
+
+<body>
+    <!-- Encabezado -->
+    <header>
+        <h1>Restaurantes Rosario</h1>
+    </header>
+
+    <div class="container">
+        <!-- Navegación / cotenedor izquierdo -->
+        <nav>
+            <ul>
+                <li><a href="index1.html">Inicio</a></li>
+                <li><a href="multimedia.html">Multimedia</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+        <!-- Contenedor principal -->
+        <main>
+            <h1>Formulario de datos personales</h1>
+
+            <form action="">
+            
+                <label for="nombreCompleto">Nombre Completo</label>
+                <input type="text" id="nombreCompleto" required>
+                <br><br>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" required>
+                <br><br>
+
+                <label for="edad">Edad</label>
+                <input type="number" id="edad">
+                <br><br>
+
+                <label for="color">Color Preferido</label>
+                <input type="color" id="color">
+                <br><br>
+                
+                <label for="comentario">Comentario</label>
+                <textarea id="comentario" cols="30" rows="10" min="10"></textarea>
+                <br><br>
+
+            </form>
+        </main>
+        <!-- Contenedor secundario / derecho -->
+        <div class="right">
+            <h2>Promociones</h2>
+            <p>Descubri las promociones de la semana</p>
+        </div>
+    </div>
+    <!-- Pie de Página-->
+    <footer>
+        <p>© copyright labcomII.com</p>
+    </footer>
+</body>
+
+</html>
