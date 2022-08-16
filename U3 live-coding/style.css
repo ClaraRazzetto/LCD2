@@ -1,0 +1,74 @@
+html {
+    background-color: rgb(240, 240, 240);
+}
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+.container {
+    width: 1024px;
+    margin: 0 auto;
+}
+
+.table-container {
+    border-radius: 15px;
+    border: 1px solid #c5c5c5;
+    overflow: hidden;
+}
+
+table.table-custom {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table.table-custom thead {
+    background-color: rgb(250, 250, 250);
+}
+
+table.table-custom thead th {
+    text-align: left;
+    color: #727272;
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: 300;
+    text-transform: uppercase;
+    border-bottom: 1px solid #72727272;
+}
+
+table.table-custom tbody tr:hover td {
+    background-color: rgb(250, 250, 250);
+}
+
+table.table-custom tbody td {
+    background-color: rgb(255, 255, 255);
+    border-bottom: 1px solid #72727272;
+    padding: 15px 20px;
+    font-size: 12px;
+}
+
+table.table-custom tbody td .data-container {
+    display: inline-block;
+}
+
+table.table-custom tbody td .image-container {
+    float: left;
+    margin-right: 13px;
+    padding-top: 20px;
+}
+
+table.table-custom tbody td img {
+    width: 50px;
+    border-radius: 100%;
+}
+
+.badge-active {
+    padding: 7px 15px;
+    background-color: #9fe19f;
+    border-radius: 20px;
+    color: #4a6a4a;
+}

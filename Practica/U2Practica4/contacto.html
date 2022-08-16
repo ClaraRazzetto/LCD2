@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina con estilo css</title>
+    <link rel="stylesheet" href="css/index1.css">
+</head>
+
+<body>
+    <!-- Encabezado -->
+    <header>
+        <h1>Restaurantes Rosario</h1>
+    </header>
+
+    <div class="container">
+        <!-- Navegación / cotenedor izquierdo -->
+        <nav>
+            <ul>
+                <li><a href="index1.html">Inicio</a></li>
+                <li><a href="multimedia.html">Multimedia</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+        <!-- Contenedor principal -->
+        <main>
+            <h1>Formulario de datos personales</h1>
+
+            <form action="">
+            
+                <label for="nombreCompleto">Nombre Completo</label>
+                <input type="text" id="nombreCompleto" required>
+                <br><br>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" required>
+                <br><br>
+
+                <label for="edad">Edad</label>
+                <input type="number" id="edad">
+                <br><br>
+
+                <label for="color">Color Preferido</label>
+                <input type="color" id="color">
+                <br><br>
+                
+                <label for="comentario">Comentario</label>
+                <textarea id="comentario" cols="30" rows="10" min="10"></textarea>
+                <br><br>
+
+                <input type="submit" value="Enviar Datos">
+            </form>
+
+            <div>
+                <h2>Ubicación UNR Rosario</h2>
+                <p>Dirección: Zeballos 1341, S2000 Rosario, Santa Fe</p>
+                <p>Web: frro.utn.edu.ar</p>
+                <p>Telefono: 03414480102</p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13391.48102712222!2d-60.6437319!3d-32.9544347!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x11f1d3d54f950dd0!2sUniversidad%20Tecnol%C3%B3gica%20Nacional%20%7C%20Facultad%20Regional%20Rosario!5e0!3m2!1ses!2sar!4v1660165733548!5m2!1ses!2sar" width="450" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            
+        </main>
+        <!-- Contenedor secundario / derecho -->
+        <div class="right">
+            <h2>Promociones</h2>
+            <p>Descubri las promociones de la semana</p>
+        </div>
+    </div>
+    <!-- Pie de Página-->
+    <footer>
+        <p>© copyright labcomII.com</p>
+    </footer>
+</body>
+
+</html>
