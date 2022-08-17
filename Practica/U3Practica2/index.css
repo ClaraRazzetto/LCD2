@@ -17,7 +17,7 @@ body {
 
 nav {
     width: 100%;
-    background-color: #007700;
+    background-color: #5f0077;
     padding-left: 30px;
     padding-right: 30px;
     padding-top: 10px;
@@ -47,7 +47,7 @@ nav {
 }
 
 .nav-item:hover {
-    background-color: chartreuse;
+    background-color:rgba(255, 127, 80, 0.552);
     border-radius: 2%;
 }
 
@@ -59,6 +59,7 @@ nav {
 .nav-item.nav-item-login {
     background-color: bisque;
     border-radius: 2px;
+    margin-left: 2%;
 }
 
 .nav-item.nav-item-login a{
@@ -66,7 +67,7 @@ nav {
 }
 
 .nav-item.nav-item-login:hover{
-    background-color: chartreuse;
+    background-color: coral;
 }
 
 .nav-item.nav-item-login a:hover{
