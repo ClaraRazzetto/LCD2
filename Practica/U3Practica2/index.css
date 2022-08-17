@@ -24,17 +24,19 @@ nav {
     padding-bottom: 10px;
     display: flex;
     justify-content: space-between;
-
+    align-items: center;
 }
 
 .logo {
     color: #fff;
     font-weight: 700;
     display: inline-block;
+
 }
 
 .nav-links {
     list-style: none;
+    display: flex;
 }
 
 .nav-item a {
@@ -42,4 +44,12 @@ nav {
     padding: 10px 15px;
     text-decoration: none;
     color: #fff
+}
+
+.nav-item:hover {
+    background-color: chartreuse;
+}
+
+.nav-item:hover a {
+    color: blue;
 }
