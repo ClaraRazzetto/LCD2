@@ -48,8 +48,31 @@ nav {
 
 .nav-item:hover {
     background-color: chartreuse;
+    border-radius: 2%;
 }
 
 .nav-item:hover a {
     color: blue;
+}
+
+/* Cambio el estilo del Login */
+.nav-item.nav-item-login {
+    background-color: bisque;
+    border-radius: 2px;
+}
+
+.nav-item.nav-item-login a{
+    color: black;
+}
+
+.nav-item.nav-item-login:hover{
+    background-color: chartreuse;
+}
+
+.nav-item.nav-item-login a:hover{
+    color: blue;
+}
+
+.fas.fa-angry{
+    font-size: 50px;
 }
