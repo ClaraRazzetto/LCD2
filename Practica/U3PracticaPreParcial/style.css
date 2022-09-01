@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;400;900&display=swap');
+
+html, body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+header{
+    background-color: lightgray; 
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    height: 40px;
+    margin: 0;
+}
+
+header, nav{
+    flex-grow: 1;
+}
+
+header nav ul li{
+    display: inline-flex;
+}
+
+header nav ul li a{
+    color: gray;
+    padding: 5px;
+    text-transform: uppercase;
+}
+
+header nav ul li a:hover {
+    border-bottom: 2px solid gray;
+}
+
+header nav ul li a.active {
+    border-bottom: 2px solid darkslategray;
+}
+
+header .profile svg {
+    width: 40px;
+}
+
+header .profile a{
+    display: block;
+    padding: 10px;
+    color: gray
+}
+
+main section{
+    margin: 1%;
+    min-height: 300px;
+}
+
+main .main-image{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section.main-image>div {
+    flex: 1;
+}
+
+main section .img-background h1{
+    color: aliceblue;
+    text-align: center;
+    justify-content: center;
+}
+
+.img-background {
+    background: url('https://www.utn.edu.ar/images/2018/09/27/3foferta.jpg');
+    height: 320px;
+}
+
+
+
+main section .img-content p{
+    padding-left: 10%;
+    color: gray;
+    font-size: 18px;
+}

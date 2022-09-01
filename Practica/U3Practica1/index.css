@@ -31,7 +31,7 @@ li{
     font-family: monospace;
     font-size: 18px;
     /* 14. Agregar 10 pixeles de espaciado interno a cada ítem de la lista. */
-    word-spacing: 10px;
+    padding-bottom: 10px;
 }
 
 /* 15. Agregar un fondo a cada ítem de la lista cuando se le pasa el cursor de mouse por 
