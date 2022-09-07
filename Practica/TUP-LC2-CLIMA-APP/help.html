@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/png" href="img/favicon.png"/>
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
     <title>Clima app</title>
     <!-- Estilos CSS -->
     <link rel="stylesheet" href="css/common.css">
@@ -13,7 +13,7 @@
 <body>
     <header>
         <h1>
-            <img src="img/favicon.png" alt="favicon clima app">
+            <img src="img/android-chrome-192x192.png" alt="favicon clima app">
             <span>Clima App</span>
         </h1>
         <nav>
@@ -26,7 +26,27 @@
     </header>
     <main>
         <h2>Ayuda Clima App</h2>
+        <p>Esta App te permite consultar el clima de una ciudad en particular utilizando la API de 
+            <a href="https://openweathermap.org/api" target="_blank">OpenWeatherMap</a>.
+        </p>
+        <p>Para poder consultar el clima, primera deberá <a href="add-city.html">Agregar una ciudad</a> y luego
+            seleccionar la Ciudad en cuestión desde la página <a href="index.html">Clima</a> 
+        </p>
+        
         <section>
+            <form action="">
+                <label for="Nombre">Nombre</label>
+                <input type="text" name="Nombre">
+                <br>
+                <label for="Email">Email</label>
+                <input type="email" name="Email">
+                <br>
+                <label for="Mensaje">Mensaje</label>
+                <textarea name="Mensaje" id="" cols="30" rows="10"></textarea>
+                <br>
+                <input type="button" name="Limpiar" value="Limpiar">
+                <input type="submit" name="Enviar" value="Enviar">
+            </form>
         </section>
     </main>
     <footer>
