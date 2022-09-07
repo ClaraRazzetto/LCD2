@@ -29,9 +29,31 @@
         <section id="form-city-list">
             <!-- Sección donde se debe colocar el formulario, con el select y el
 botón de consultar -->
+                <form action="">
+                    <select name="SeleccioarCiudad" id="SeleccionarCiudad">
+                        <option value="" disabled selected> Seleccionar Ciudad</option>
+                        <option value="Rosario">Rosario</option>
+                        <option value="Rafaela">Rafaela</option>
+                    </select>
+                    <input type="button" name="ConsultarCiudad" value="Consultar">
+                </form>
         </section>
         <section id="section-weather-result">
-            <!-- Sección donde se debe mostrar el clima de la ciudad -->
+           <div class="card">
+                <h3>Rosario</h3>
+                <img src="http://openweathermap.org/img/wn/01d@2x.png" alt="imagen referente al clima actual">
+                <p>
+                    Temperatura: 25.31° 
+                    <br>
+                    Sensación térmica: 24.65°
+                    <br>
+                    Humedad: 29%
+                    <br>
+                    Velocidad del viento: 4.63km/h
+                    <br>
+                    Presión: 1011 P
+                </p>
+           </div>
         </section>
     </main>
     <footer>
