@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200&display=swap');
+
+* {
+  font-family: 'Raleway', sans-serif;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 50%;
+  padding: 60px 0px;
+}
+
+/* MENU: NAVBAR/HEADER */
+
+nav {
+  background-color: #34495E;
+}
+
+nav ul {
+  margin: 0;
+  padding: 10px;
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+}
+
+nav ul li {
+  flex-grow: 0; 
+  flex-shrink: 1;  
+  flex-basis: 25%;
+}
+
+nav ul li a {
+  color: #eeeeee;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 100;
+  width: 100%;
+  display: inline-flex;
+  justify-content: center;
+}
+
+nav ul li a:hover {
+  background-color: rgba(131, 145, 146, 0.3);
+}
+
+/* SECTION MAIN IMAGE */
+
+#section-main-image {
+  height: 80vh; 
+  background-image: url("https://images.ctfassets.net/hrltx12pl8hq/4ACnMj4WVSOZRZt0jHu9h5/1506f652bcd70f4dc3e88219fefea858/shutterstock_739595833-min.jpg?fit=fill&w=800&h=300");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#section-main-image h1 {
+  font-size: 50px;
+  color: rgba(255, 255, 255, .5);
+  margin: 0 0 20px;
+}
+
+#section-main-image p {
+  color: white;
+  text-shadow: 2px 2px 5px #000;;
+  margin: 0;
+}
+
+/* SECTION COFFEE */
+
+#section-tecnologia {
+  background-color: #eeeeee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 40px;
+}
+
+#section-tecnologia h2 {
+  margin: 40px 0 20px;
+}
+
+#section-tecnologia p {
+  text-align: justify;
+}
+
+#section-tecnologia p::first-letter{
+  font-size: larger;
+  color: #000;
+  font-weight: bolder;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.product {
+  padding: 0 15px;
+}
+
+.product h3 {
+  font-size: small;
+  font-weight: bolder;
+  color: #3E5F8A ;
+}
+
+.product img {
+  width: 100px;
+}
+
+/* FOOTER CONTACT */
+
+#footer-contact {
+  background-color: #566573;
+  color: #eeeeee;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#footer-contact .contact-data {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact-form form {
+  margin-left: 50px;
+  text-align: right;
+}
+
+.contact-form form .form-control {
+  padding: 10px 0;
+  border-radius: 3px;
+  border-color:#34495E;
+  border: 0.3px;
+}
+
+.contact-form form .form-control label {
+  margin-right: 15px;
+}
+
+.contact-form form button {
+  margin-top: 15px;
+  color: #212F3C;
+  padding: 2px 30px;
+}

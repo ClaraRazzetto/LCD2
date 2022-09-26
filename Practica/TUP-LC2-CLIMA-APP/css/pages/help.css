@@ -1,0 +1,8 @@
+form .flex-item .input-text{
+    width: 300px;
+}
+
+form .alert{
+    background-color: #dc3545;
+    border-color: #dc3545;
+}

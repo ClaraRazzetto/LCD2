@@ -8,6 +8,7 @@
     <title>Clima app</title>
     <!-- Estilos CSS -->
     <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/pages/help.css">
 </head>
 
 <body>
@@ -35,17 +36,28 @@
         
         <section>
             <form action="">
-                <label for="Nombre">Nombre</label>
-                <input type="text" name="Nombre">
-                <br>
-                <label for="Email">Email</label>
-                <input type="email" name="Email">
-                <br>
-                <label for="Mensaje">Mensaje</label>
-                <textarea name="Mensaje" id="" cols="30" rows="10"></textarea>
-                <br>
-                <input type="button" name="Limpiar" value="Limpiar">
-                <input type="submit" name="Enviar" value="Enviar">
+                <div class="flex-item">
+                    <label for="Nombre">Nombre</label>
+                    <br>
+                    <input type="text" name="Nombre" class="input-text">
+                </div>
+                <div class="flex-item">
+                    <label for="Email">Email</label>
+                    <br>
+                    <input type="email" name="Email" class="input-text">
+                </div>
+                <div class="flex-item">
+                    <label for="Mensaje">Mensaje</label>
+                    <br>
+                    <textarea name="Mensaje" id="" cols="30" rows="10" class="input-text"></textarea>
+                </div>
+                <div class="flex-item">
+                    <input type="button" name="Limpiar" value="Limpiar" class="btn">
+                    <input type="submit" name="Enviar" value="Enviar" class="btn">
+                </div>
+                <div class="alert">
+                    <span> Ingrese un <strong> Email </strong> válido</span>
+                </div>
             </form>
         </section>
     </main>

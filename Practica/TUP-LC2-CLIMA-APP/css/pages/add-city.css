@@ -1,0 +1,20 @@
+form{
+    width: 40%;
+}
+
+main section form .flex-item > input{
+    width: 100%;
+}
+
+form .alert.danger{
+    background-color:  #dc3545;
+    border-color:  #dc3545;
+}
+form .alert.success{
+    background-color:#28a745;
+    border-color: #28a745;
+}
+form .alert.warning{
+    background-color: #ffc107;
+    border-color: #ffc107;
+}

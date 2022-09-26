@@ -1,0 +1,39 @@
+Selectores CSS
+
+Selector universal: *{}
+	Todos lo elementos del html
+
+Selector de elementos: h1{} 
+	Todos los elementos h1
+
+Selector de clase: .nombreClase{}
+	Todos los elementos con el atributo class="nombreClase"
+
+Selector de ID: #nombreID{} 
+	Elemento con el atributo id="nombreID"
+
+Selector de atributos: a[title]{}
+
+Pseudoclases y pseudoelementos: 
+	Selectores que incluyen pseudoclases:aplican estilo a ciertos estados del elemento
+	a:hover{} cuando se pasa el ratón por encima
+	
+	Selector que incluye pseudoelemento: selecciona una parte determinada del elemento en vez del elemento en sí
+	p::first-line{} modifica la primera línea del texto
+
+Combinadores: 
+
+ p, h1{} Todos los elementos p y h1 
+
+Combinador descendente: p em{} Todos los elementos em que esten dentro de un p
+
+Combinador de hno adyacente: h1 + p{} Se aplica a ambos elementos que están en el mismo nivel de jerarquia y uno seguido del otro
+
+Combinador de elemento hijo: article>p{} Aplica a los elementos p que son hijos directos del elemento article
+
+Combinador de hermanos generales: h1~p{} separa dos selectores y selecciona el segundo elemento sólo si está precedido por el primero y ambos comparten un padre común.
+
+@rules: dan al css algunas instrucciones sobre como comportarse.
+	Ejemplo @import 'styles2.css' importa una hoja adicional de estilo
+	@media(condición){body{}} dar un estilo si se cumple una condición
+

@@ -8,6 +8,7 @@
     <title>Clima app</title>
     <!-- Estilos CSS -->
     <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/pages/add-city.css">
 </head>
 
 <body>
@@ -29,9 +30,23 @@
         <h2>Agregar Ciudad</h2>
         <section>
             <form action="">
-                <label for="InsertarCiudad">Inserte la ciudad a agregar: </label>
-                <input type="text" name="InsertarCiudad">
-                <input type="button" value="Agregar">
+                <div class="flex-item">
+                    <label for="InsertarCiudad">Inserte la ciudad a agregar:</label>
+                    <br>
+                    <input type="text" name="InsertarCiudad">
+                </div>
+                <div class="flex-item">
+                    <input type="button" value="Agregar" class="btn">
+                </div>
+                <div class="alert success">
+                    Ciudad agregada con exito
+                </div>
+                <div class="alert danger">
+                    Error: La ciudad ingresada no se encuetra en la API o se produjo un error al consultar 
+                </div>
+                <div class="alert warning">
+                    La ciudad ingresada ya se encuentra almacenada
+                </div>
             </form>
         </section>
     </main>
