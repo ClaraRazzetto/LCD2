@@ -1,0 +1,50 @@
+<!-- De un postulante a un empleo, que realizó un test de capacitación, se obtuvo la siguiente información: 
+    nombre del postulante
+    cantidad total de preguntas que se le realizaron
+    cantidad de preguntas que contestó correctamente. 
+Se pide confeccionar un programa que lea los datos del postulante e informe el nivel del mismo según el 
+porcentaje de respuestas correctas que ha obtenido, y sabiendo que:
+Nivel superior: Porcentaje>=90%.
+Nivel medio: Porcentaje>=75% y <90%.
+Nivel regular: Porcentaje>=50% y <75%.
+Fuera de nivel: Porcentaje<50%. 
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Postulante empleo</title>
+    <script src="script.js"></script>
+    <style>
+        div{
+            margin: 2%;
+        }
+    </style>
+</head>
+<body>
+    <form action="">
+    <div>
+        <label for="nombre_apellido">Ingrese nombre y apellido del postulante: </label>
+        <input type="text" id="nombre_apellido">
+    </div>
+    <div>
+        <label for="cant_preguntas">Ingrese cantidad de preguntas realizadas: </label>
+        <input type="number" id="cant_preguntas">
+    </div>
+    <div>
+        <label for="cant_respuestas">Ingrese cantidad de respuestas correctas: </label>
+        <input type="number" id="cant_respuestas">
+    </div>
+    <div>
+        <input type="button" value="Calcular resultado" onclick="calcular_nivel();">
+    </div>
+    </form>
+    <h1>
+        <div id="resultado"></div>
+    </h1>
+    
+</body>
+</html>

@@ -1,0 +1,64 @@
+<!-- Cargar por teclado los siguientes datos de un alumno:
+• Nombre
+• Apellido
+• Domicilio
+• Curso
+• Carrera
+• Materia
+• Nota primer parcial
+Mostrar todos los datos por pantalla uno debajo del otro -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js"></script>
+    <title>Document</title>
+    <style>
+        div{
+            margin: 2%;
+        }
+    </style>
+</head>
+<body>
+    <form action="" id="formulario">
+        <div>
+            <header>Ingrese los datos del alumno</h1>
+        </div>
+        <div>
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre">
+        </div>
+        <div>
+            <label for="apellido">Apellido</label>
+            <input type="text" id="apellido">
+        </div>
+        <div>
+            <label for="domicilio">Domicilio</label>
+            <input type="text" id="domicilio">
+        </div> 
+        <div>
+            <label for="curso">Curso</label>
+            <input type="text" id="curso">
+        </div>
+        <div>
+            <label for="carrera">Carrera</label>
+            <input type="text" id="carrera">
+        </div>
+        <div>
+            <label for="materia">Materia</label>
+            <input type="text" id="materia">
+        </div>
+        <div>
+            <label for="nota_parcial">Nota primer parcial</label>
+            <input type="text" id="nota_parcial">
+        </div>
+        <div>
+            <button type="button" onclick="mostrar_datos();">Enviar</button>
+        </div>
+    </form>
+    <div id="resultado"></div>
+</body>
+</html>
